@@ -41,7 +41,7 @@ def week_start_unix(now=None):
 def get_club_activities(access_token, after_ts):
     headers = {'Authorization': f'Bearer {access_token}'}
     page = 1
-    per_page = 10
+    per_page = 200
     activities = []
     while True:
         params = {'after': after_ts, 'page': page, 'per_page': per_page}
@@ -64,8 +64,6 @@ def get_club_activities(access_token, after_ts):
             break
         activities.extend(page_items)
         page += 1
-    # レート制限対策に遅延
-    time.sleep(30)
     return activities
 
 def aggregate_weekly_rides(activities):
