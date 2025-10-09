@@ -43,22 +43,41 @@ def get_club_activities(access_token, after_ts):
     page = 1
     per_page = 200
     activities = []
+    rate_limit_usage = 0
+    rate_limit_limit = 600  # Default 15-min limit
+
     while True:
+        # レート制限のチェック
+        if rate_limit_usage >= rate_limit_limit * 0.95:
+            now = datetime.datetime.now(datetime.timezone.utc)
+            # 次の15分ウィンドウの開始まで待機
+            wait_seconds = 900 - (now.minute * 60 + now.second) % 900 + 5
+            print(f"Rate limit approaching. Waiting for {wait_seconds} seconds.")
+            time.sleep(wait_seconds)
+
         params = {'after': after_ts, 'page': page, 'per_page': per_page}
-        retry_count = 0
-        while True:
-            try:
-                r = requests.get(STRAVA_CLUB_ACTIVITIES, headers=headers, params=params)
-                r.raise_for_status()
-                break
-            except requests.exceptions.HTTPError as e:
-                if r.status_code == 429:
-                    print(f"429 Too Many Requests: {r.url}  API制限中。LINE通知します。")
-                    from sys import exc_info
-                    notify_line(f"Strava API制限中: 429 Too Many Requests\n{r.url}")
-                    raise
-                else:
-                    raise
+        try:
+            r = requests.get(STRAVA_CLUB_ACTIVITIES, headers=headers, params=params)
+            r.raise_for_status()
+
+            # レート制限ヘッダーの更新
+            if 'X-RateLimit-Limit' in r.headers:
+                rate_limit_limit = int(r.headers['X-RateLimit-Limit'].split(',')[0])
+            if 'X-RateLimit-Usage' in r.headers:
+                rate_limit_usage = int(r.headers['X-RateLimit-Usage'].split(',')[0])
+
+        except requests.exceptions.HTTPError as e:
+            if r.status_code == 429:
+                print(f"429 Too Many Requests: {r.url}  API制限中。LINE通知します。")
+                notify_line(f"Strava API制限中: 429 Too Many Requests\n{r.url}")
+                # 429エラーの場合、次の15分ウィンドウまで待機
+                now = datetime.datetime.now(datetime.timezone.utc)
+                wait_seconds = 900 - (now.minute * 60 + now.second) % 900 + 5
+                print(f"Rate limit hit. Waiting for {wait_seconds} seconds before retrying.")
+                time.sleep(wait_seconds)
+                continue  # 同じページでリトライ
+            else:
+                raise
         page_items = r.json()
         if not page_items:
             break
