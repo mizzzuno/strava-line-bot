@@ -1,3 +1,7 @@
 .env
+.venv/
+__pycache__/
 .pytest_cache/
+.DS_Store
 strava_tokens.json
+output.json
