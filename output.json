@@ -1,0 +1,512 @@
+[
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Afternoon Ride",
+    "distance": 10878.7,
+    "moving_time": 1830,
+    "elapsed_time": 6796,
+    "total_elevation_gain": 113.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "Chang",
+      "lastname": "L."
+    },
+    "name": "午後のライド",
+    "distance": 61133.1,
+    "moving_time": 7688,
+    "elapsed_time": 8059,
+    "total_elevation_gain": 822.5,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 12,
+    "device_name": "Wahoo ELEMNT ROAM"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Afternoon Ride",
+    "distance": 54890.5,
+    "moving_time": 7090,
+    "elapsed_time": 7896,
+    "total_elevation_gain": 682.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "晨間騎乘",
+    "distance": 459.9,
+    "moving_time": 140,
+    "elapsed_time": 378,
+    "total_elevation_gain": 0.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 520"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Night Ride",
+    "distance": 4022.4,
+    "moving_time": 554,
+    "elapsed_time": 554,
+    "total_elevation_gain": 24.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Evening Ride",
+    "distance": 3944.3,
+    "moving_time": 601,
+    "elapsed_time": 760,
+    "total_elevation_gain": 39.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "晚間騎乘",
+    "distance": 1906.2,
+    "moving_time": 462,
+    "elapsed_time": 462,
+    "total_elevation_gain": 2.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 520"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Lunch Ride",
+    "distance": 84178.0,
+    "moving_time": 10228,
+    "elapsed_time": 11099,
+    "total_elevation_gain": 1238.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "丁村",
+    "distance": 22469.3,
+    "moving_time": 4044,
+    "elapsed_time": 4949,
+    "total_elevation_gain": 87.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 520"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "Chang",
+      "lastname": "L."
+    },
+    "name": "朝のライド",
+    "distance": 167975.0,
+    "moving_time": 19631,
+    "elapsed_time": 29952,
+    "total_elevation_gain": 656.4,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 12,
+    "device_name": "Wahoo ELEMNT ROAM"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "鴨川合宿4日目",
+    "distance": 132490.0,
+    "moving_time": 16374,
+    "elapsed_time": 21187,
+    "total_elevation_gain": 1639.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "Chang",
+      "lastname": "L."
+    },
+    "name": "朝のライド",
+    "distance": 64222.9,
+    "moving_time": 7742,
+    "elapsed_time": 8835,
+    "total_elevation_gain": 549.2,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 12,
+    "device_name": "Wahoo ELEMNT ROAM"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "午後騎乘",
+    "distance": 1892.1,
+    "moving_time": 333,
+    "elapsed_time": 520,
+    "total_elevation_gain": 1.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 520"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "Chang",
+      "lastname": "L."
+    },
+    "name": "午後のライド",
+    "distance": 36521.8,
+    "moving_time": 4489,
+    "elapsed_time": 4759,
+    "total_elevation_gain": 525.3,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 12,
+    "device_name": "Wahoo ELEMNT ROAM"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "镜岭",
+    "distance": 47549.0,
+    "moving_time": 5580,
+    "elapsed_time": 6130,
+    "total_elevation_gain": 207.3,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 520"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "鴨川合宿3日目",
+    "distance": 112917.0,
+    "moving_time": 12106,
+    "elapsed_time": 13236,
+    "total_elevation_gain": 1133.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "Chang",
+      "lastname": "L."
+    },
+    "name": "朝のライド",
+    "distance": 100010.0,
+    "moving_time": 11252,
+    "elapsed_time": 12756,
+    "total_elevation_gain": 1247.1,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 12,
+    "device_name": "Wahoo ELEMNT ROAM"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "鴨川合宿2日目",
+    "distance": 155767.0,
+    "moving_time": 17496,
+    "elapsed_time": 22776,
+    "total_elevation_gain": 1532.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Evening Ride",
+    "distance": 3207.4,
+    "moving_time": 555,
+    "elapsed_time": 972,
+    "total_elevation_gain": 43.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "午後騎乘",
+    "distance": 1940.8,
+    "moving_time": 330,
+    "elapsed_time": 417,
+    "total_elevation_gain": 1.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 520"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "Chang",
+      "lastname": "L."
+    },
+    "name": "午後のライド",
+    "distance": 30217.8,
+    "moving_time": 3473,
+    "elapsed_time": 3641,
+    "total_elevation_gain": 167.7,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 12,
+    "device_name": "Wahoo ELEMNT ROAM"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "下岩贝",
+    "distance": 44193.2,
+    "moving_time": 6062,
+    "elapsed_time": 9065,
+    "total_elevation_gain": 554.5,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 520"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "午間騎乘",
+    "distance": 1414.1,
+    "moving_time": 250,
+    "elapsed_time": 360,
+    "total_elevation_gain": 0.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 520"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Afternoon Ride",
+    "distance": 3947.7,
+    "moving_time": 530,
+    "elapsed_time": 576,
+    "total_elevation_gain": 42.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "Chang",
+      "lastname": "L."
+    },
+    "name": "午後のライド",
+    "distance": 37470.2,
+    "moving_time": 4243,
+    "elapsed_time": 4430,
+    "total_elevation_gain": 495.1,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 12,
+    "device_name": "Wahoo ELEMNT ROAM"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "GDA",
+      "lastname": "J."
+    },
+    "name": "傍晚騎車",
+    "distance": 18999.8,
+    "moving_time": 3506,
+    "elapsed_time": 4099,
+    "total_elevation_gain": 582.5,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Strava App"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "袋井",
+    "distance": 6710.4,
+    "moving_time": 710,
+    "elapsed_time": 1093,
+    "total_elevation_gain": 10.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 11,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Morning Ride",
+    "distance": 2340.3,
+    "moving_time": 476,
+    "elapsed_time": 2723,
+    "total_elevation_gain": 7.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Afternoon Ride",
+    "distance": 1604.0,
+    "moving_time": 521,
+    "elapsed_time": 5696,
+    "total_elevation_gain": 6.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  },
+  {
+    "resource_state": 2,
+    "athlete": {
+      "resource_state": 2,
+      "firstname": "funa",
+      "lastname": "F."
+    },
+    "name": "Afternoon Ride",
+    "distance": 29088.2,
+    "moving_time": 3910,
+    "elapsed_time": 7140,
+    "total_elevation_gain": 35.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null,
+    "device_name": "Garmin Edge 830"
+  }
+]
